@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+
+# Environment and secrets
+.env
+*.key
+*.pem
+credentials.json
+
+# OCR models and temporary files
+.models/
+temp/
+uploads/
+
+# Generated results
+data/outputs/*
+!data/outputs/.gitkeep
+
+# Editors
+.vscode/
+.idea/
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Frontend
+node_modules/
+dist/
